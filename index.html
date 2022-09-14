@@ -48,15 +48,19 @@
             </section>
 
             <section>
-                <img src="rock.jpeg" alt="rock image" />
-                <img src="paper.png" alt="paper image" />
-                <img src="scissors.png" alt="scissors image" />
+                <button id="guess-rock"><img src="rock.jpeg" alt="rock image" /> Rock</button>
+                <button id="guess-paper"><img src="paper.png" alt="paper image" /> Paper</button>
+                <button id="guess-scissors">
+                    <img src="assets/scissors.png" alt="scissors image" />Scissors
+                </button>
             </section>
 
-            <section>
-                <button class="throw-hand" id="guess-rock">Rock</button>
-                <button class="throw-hand" id="guess-paper">Paper</button>
-                <button class="throw-hand" id="guess-scissors">Scissors</button>
+            <section id="results-section">
+                <h2>Results...</h2>
+                <p class="results" id="result-win">YOU WIN :D</p>
+                <p class="results" id="result-lose">YOU LOSE :(</p>
+                <p class="results" id="result-draw">IT'S A DRAW!</p>
+                <button id="play-again-button">Play Again</button>
             </section>
         </main>
     </body>

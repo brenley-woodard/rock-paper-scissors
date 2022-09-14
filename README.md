@@ -15,20 +15,13 @@ div for scoreboard
 -   header with class of 'scoreboard'
 -   p with display of win, loss, draw, total
 
-div for images
+div for buttons with images
 
--   img of rock with text
--   img of paper with text
--   img of scissors with text
--   hidden outlines
-
-div for buttons
-
--   class of throw
--   id's of rock, paper, or scissors
--   button for rock
--   button for paper
--   button for scissors
+-   class of throwHand
+-   button for rock with img of rock with text
+-   button for paper img of paper with text
+-   button for scissor img of scissors with text
+-   hidden outlines (green for user, red for comp, blue for draw)
 
 div for results display
 
