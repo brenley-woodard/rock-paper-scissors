@@ -6,8 +6,31 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 ## Making a plan
 
-1. **Make a drawing of your app. Simple "wireframes"**
-1. **Look at the drawing and name the HTML elements you'll need to realize your vision**
+https://whimsical.com/GvDH7fovSp7j3fABHYmYrZ
+
+## HTML
+
+div for scoreboard
+
+-   header with class of 'scoreboard'
+-   p with display of win, loss, draw, total
+
+div for buttons with images
+
+-   class of throwHand
+-   button for rock with img of rock with text
+-   button for paper img of paper with text
+-   button for scissor img of scissors with text
+-   hidden outlines (green for user, red for comp, blue for draw)
+
+div for results display
+
+-   logic statement for 'you win' or 'you lose' or 'its a draw'
+
+div for play again
+
+-   button that resets
+
 1. **Look at the drawing and imagine using the app. What _state_ do you need to track?**
 1. **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")**
 1. **Once we know _why_ we need each element, think about how to implement the "Why" as a "How" (i.e., `resultsEl.textContent = newResults`)**
@@ -25,3 +48,11 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+## JS
+
+1. make random selection (compguess)
+2. make sure clicking on rock shows correct random selection
+3. make sure clicking on any item shows correct random selection
+4. write function that determines win loss or draw
+5. call ^ function on results page
