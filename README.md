@@ -48,3 +48,11 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+## JS
+
+1. make random selection (compguess)
+2. make sure clicking on rock shows correct random selection
+3. make sure clicking on any item shows correct random selection
+4. write function that determines win loss or draw
+5. call ^ function on results page
